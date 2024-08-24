@@ -8,7 +8,7 @@ import {
   LinearScale,
   Tooltip,
   Legend
-} from "./Chart"
+} from "chart.js"
 ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 function Widget({ widget, onRemove }) {

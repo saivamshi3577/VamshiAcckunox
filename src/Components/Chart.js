@@ -16,7 +16,6 @@ const Chart = ({ type, data }) => {
       },
     ],
   };
-
   const options = {
     responsive: true,
     plugins: {
