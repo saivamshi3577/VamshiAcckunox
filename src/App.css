@@ -1,0 +1,64 @@
+
+
+.App {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+}
+
+.widgets {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.widget {
+  position: relative;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.widget h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.chart-container {
+  height: 200px;
+}
+
+.remove-widget {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+
+
+
+
+

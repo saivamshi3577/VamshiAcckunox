@@ -1,0 +1,36 @@
+
+.category {
+    padding: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+    position: relative; 
+  }
+  
+  .widgets-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .widget {
+    flex: 1 1 300px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .add-widget-container {
+    flex: 1 1 300px;
+    display: flex;
+    align-items: flex-end;
+    padding: 16px;
+  }
+  
+  .add-widget-form {
+    position: absolute; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
