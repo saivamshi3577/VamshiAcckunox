@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 import { Pie, Doughnut, Bar } from "react-chartjs-2";
 import {
@@ -10,8 +7,10 @@ import {
   CategoryScale,
   LinearScale,
   Tooltip,
-  Legend,
-} from "../Chart"
+  Legend
+} from "chart.js";
+
+// Register Chart.js components
 ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 function Widget({ widget, onRemove }) {
