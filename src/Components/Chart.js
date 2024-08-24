@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pie, Doughnut, Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale, BarElement } from "Chart.js"
+import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale, BarElement } from "chart.js"
 
 ChartJS.register(Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale, BarElement);
 
