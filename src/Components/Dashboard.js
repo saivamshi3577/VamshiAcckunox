@@ -35,7 +35,6 @@ function Dashboard() {
       return { ...prevConfig, categories: updatedCategories };
     });
   };
-
   const handleRemoveWidget = (categoryId, widgetId) => {
     setConfig((prevConfig) => {
       const updatedCategories = prevConfig.categories.map((category) => {
@@ -52,7 +51,6 @@ function Dashboard() {
       return { ...prevConfig, categories: updatedCategories };
     });
   };
-
   const filteredCategories = config.categories.map((category) => {
     const filteredWidgets = category.widgets.filter((widget) =>
       widget.title.toLowerCase().includes(searchTerm.toLowerCase())
