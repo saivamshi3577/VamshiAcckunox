@@ -1,7 +1,7 @@
 
 
 import React, { useRef } from 'react';
-import Chart from './Chart';
+import Chart from '../Chart';
 import './Category.css';
 
 const Category = ({ category, onAddWidget, onRemoveWidget }) => {
