@@ -8,7 +8,7 @@ import {
   LinearScale,
   Tooltip,
   Legend
-} from "chart.js";
+} from "./chart";
 
 // Register Chart.js components
 ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend);
