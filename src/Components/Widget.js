@@ -11,7 +11,7 @@ import {
   LinearScale,
   Tooltip,
   Legend,
-} from "chart.js";
+} from "../Chart"
 ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 function Widget({ widget, onRemove }) {
